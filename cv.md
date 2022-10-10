@@ -71,3 +71,8 @@ You can use this application to see some delicious yummy meals, You can look for
 
 
 ------------
+
+### Courses / Certeficates:
+- RS School. JS/Frontend development course (in progress)
+- The Frontend Developer Career Path from [Scrimba](https://scrimba.com/ "Scrimba") ([certificate](https://scrimba.com/certificate/u6WER6Tr/gfrontend "certificate"))
+- Bachelor's degree, Full Stack Web developer / Multimedia  (graduated)

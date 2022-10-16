@@ -125,3 +125,21 @@ ul {
   filter: blur(250px);
   z-index: -1;
 }
+
+main header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+main header .profile-pic {
+  margin-right: 3rem;
+}
+
+main header h2 {
+  margin-top: 0.7rem;
+}
+
+.divider {
+  margin-block: 1.5rem;
+}

@@ -143,3 +143,22 @@ main header h2 {
 .divider {
   margin-block: 1.5rem;
 }
+
+.father {
+  display: flex;
+  justify-content: space-between;
+}
+
+.father section {
+  width: 50%;
+}
+
+.father section.contact {
+  padding-left: 2rem;
+}
+
+.horizontally-divider {
+  min-height: 100%;
+  width: 1px;
+  background-color: var(--paragraph-clr);
+}

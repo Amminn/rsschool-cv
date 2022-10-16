@@ -8,6 +8,10 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>rsschool-cv-html</title>
   </head>
@@ -126,6 +130,76 @@
           </ul>
         </section>
       </div>
+
+      <section id="code-example">
+        <!-- code example section -->
+        <h3>Code Example:</h3>
+        <pre>
+          <code>
+  import React from 'react'
+  import {Context} from '../Context'
+
+  function Favorite() {
+  const {favoriteMeal, selectMeal, removeFavorite} = React.useContext(Context)
+
+  const renderFavoriteMeals = favoriteMeal.map(item =&gt; {
+    const {idMeal, strMeal: title, strMealThumb: img} = item
+    return (
+    &lt;div key={idMeal} id={idMeal} className=&quot;favorite-item&quot;&gt;
+    &lt;img className='favorites-img'
+      src={img}
+      alt={`${title} image`}
+      onClick={() =&gt; selectMeal(idMeal)}
+    /&gt;
+    &lt;p className=&quot;remove-btn&quot; onClick={() =&gt; removeFavorite(idMeal)}&gt;remove&lt;/p&gt;
+    &lt;/div&gt;
+    )
+  })
+  return (
+    &lt;section className='favorites'&gt;
+      &lt;div className=&quot;favorites-content&quot;&gt;
+          &lt;h2&gt;Favorites&lt;/h2&gt;
+        &lt;div className=&quot;favorites-container&quot;&gt;
+          {renderFavoriteMeals}
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/section&gt;
+  )
+  }
+
+  export default Favorite
+          </code>
+        </pre>
+        <p>
+          This sample code is one of many other components that represent the
+          <a href="https://amminn.github.io/meals-application/" target="_blank"
+            >Meals App</a
+          >
+          This app will allow you to view some mouthwatering dishes. Along with saving and a search bar feature to look up for more meals and their ingredients.
+        </p>
+        <h4>Some Other Projects:</h4>
+        <ul>
+          <li>
+            <a href="https://amminn.github.io/trading-king/" target="_blank"
+              >Trading-King</a
+            >
+          </li>
+          <li>
+            <a href="https://amminn.github.io/payapi/" target="_blank"
+              >PayAPI</a
+            >
+          </li>
+          <li>
+            <a href="https://amminn.github.io/Tenzies-Project/" target="_blank"
+              >Tenzies-Project</a
+            >
+          </li>
+        </ul>
+      </section>
     </main>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>

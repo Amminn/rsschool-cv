@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Roboto+Mono&display=swap');
+
+:root {
+  --title-clr: #342A25;
+  --paragraph-clr: #1E1E20;
+  --link-clr: #6D51E4;
+  --title-font: 'Nunito';
+  --paragraph-font: 'Roboto Mono';
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 10px; /* 1rem = 10px */
+}
+
+body {
+  background-color: #f3f3f3;
+}

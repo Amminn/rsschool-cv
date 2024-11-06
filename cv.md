@@ -7,7 +7,7 @@
 - **Portfolio:** [https://amminn.github.io/Portfolio/](https://amminn.github.io/Portfolio/ "https://amminn.github.io/Portfolio/")
 - **linkedin:** [amin-benkhaled](https://www.linkedin.com/in/amin-benkhaled-3140641b5/ "amin-benkhaled")
 - **E-mail:** benkha1ed.amn@gmail.com
-- **Discord:** Amin#4046
+- **Discord:** amminn
 
 ---
 
